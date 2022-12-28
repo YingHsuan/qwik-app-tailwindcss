@@ -17,6 +17,7 @@
     "fmt.check": "prettier --check .",
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
+    "build.css": "npx tailwindcss -i ./src/**/**/*.css -o ./dist/output.css",
     "start": "vite --open --mode ssr",
     "qwik": "qwik"
   },
